@@ -1,0 +1,9 @@
+name: PlantUML Action
+description: GitHub Action for generating UML diagrams with PlantUML
+inputs:
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  color: blue 
+  icon: code
